@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@id/navigationuniversites"
+        android:title="Universities"
+        android:icon="@drawable/university"
+        />
+    <item android:id="@id/navigationadmupdates"
+        android:title="AdmissionUpdates"
+        android:icon="@drawable/admission"
+        />
+    <item android:id="@id/navigationsearch"
+        android:title="Search"
+        android:icon="@drawable/search"
+        />
+
+
+</menu>

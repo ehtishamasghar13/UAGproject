@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobilenavigation"
+    app:startDestination="@+id/navigationuniversites"
+    >
+
+    <fragment android:id="@+id/navigationuniversites"
+        android:name="com.malikehtish.uagproject.ui.universities.universitiesFragment"
+         android:label="Universites"
+        tools:layout="@layout/fragment_universities"/>
+
+    <fragment android:id="@+id/navigationadmupdates"
+        android:name="com.malikehtish.uagproject.ui.admupdates.admupdatesFragment"
+        android:label="Admission Updates"
+        tools:layout="@layout/fragment_admupdates"/>
+    <fragment android:id="@+id/navigationsearch"
+        android:name="com.malikehtish.uagproject.ui.search.searchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search"/>
+
+</navigation>

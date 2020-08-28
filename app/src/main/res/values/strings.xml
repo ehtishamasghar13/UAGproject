@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">UAG project</string>
+
+
+    <string name="public_universities">Public</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Universities">
+        <item>NUML</item>
+        <item>COMSAT</item>
+        <item>NUST</item>
+        <item>CUST</item>
+        <item>IST</item>
+        <item>APPCOM</item>
+        <item>IIUI</item>
+        <item>NUTECH</item>
+        <item>ARID</item>
+        <item>ISRA</item>
+
+    </string-array>
+    <string-array name="description">
+
+    </string-array>
+
+</resources>
